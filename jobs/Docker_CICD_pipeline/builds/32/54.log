@@ -1,0 +1,3 @@
+[Docker_CICD_pipeline@2] Running shell script
++ /home/jenkins/google-cloud-sdk/bin/kubectl apply -f manifest/hellowhale-deployment.yaml
+deployment "hellowhale-deployment" configured

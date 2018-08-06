@@ -1,0 +1,11 @@
+Started on Jul 1, 2018 2:14:02 AM
+Started by event from 192.30.252.40 ⇒ http://35.237.5.14:8080/github-webhook/ on Sun Jul 01 02:14:01 UTC 2018
+Using strategy: Default
+[poll] Last Built Revision: Revision 430b8fdd1b37c0e42838bcd5e84a8fe5b84006c0 (refs/remotes/origin/Manoj-ci)
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git ls-remote -h git@github.com:Maruthi-Manoj/Spark.git # timeout=10
+Found 6 remote heads on git@github.com:Maruthi-Manoj/Spark.git
+[poll] Latest remote head revision on refs/heads/Manoj-ci is: 38250d7ff561184ed40f4404823a8d34aee6fd3d
+Done. Took 2.2 sec
+Changes found

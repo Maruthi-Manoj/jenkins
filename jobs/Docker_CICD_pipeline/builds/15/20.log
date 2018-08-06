@@ -1,0 +1,3 @@
+[Docker_CICD_pipeline@4] Running shell script
++ pwd
+/home/jenkins/workspace/Docker_CICD_pipeline@4

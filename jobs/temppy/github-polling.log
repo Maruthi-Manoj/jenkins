@@ -1,0 +1,10 @@
+Started on May 29, 2018 3:39:13 PM
+Started by event from 192.30.252.44 ⇒ http://35.227.51.71:8080/github-webhook/ on Tue May 29 15:39:13 UTC 2018
+Using strategy: Default
+[poll] Last Built Revision: Revision 80bba0cedac31a0c9810f329513feaf5a80fc56a (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Maruthi-Manoj/Devops.git # timeout=10
+Found 3 remote heads on https://github.com/Maruthi-Manoj/Devops.git
+[poll] Latest remote head revision on refs/heads/master is: 80bba0cedac31a0c9810f329513feaf5a80fc56a - already built by 13
+Done. Took 0.37 sec
+No changes

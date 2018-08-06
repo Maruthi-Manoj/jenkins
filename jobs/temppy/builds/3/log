@@ -1,0 +1,19 @@
+Started by GitHub push by Maruthi-Manoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/temppy
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Maruthi-Manoj/Devops.git # timeout=10
+Fetching upstream changes from https://github.com/Maruthi-Manoj/Devops.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Maruthi-Manoj/Devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f99f37f74885110577122804cde213d680b643ee (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f99f37f74885110577122804cde213d680b643ee
+Commit message: "Update helloworld.py"
+ > git rev-list --no-walk a1f45a704d82ff00e3cd3d98e240a87f0339276f # timeout=10
+[temppy] $ /bin/sh -xe /tmp/jenkins2559964033115423832.sh
++ python helloworld.py
+hello
+Finished: SUCCESS

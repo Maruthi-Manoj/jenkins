@@ -1,0 +1,28 @@
+Started on Jun 9, 2018 4:30:52 PM
+Started by event from 192.30.252.37 ⇒ http://35.237.174.226:8080/github-webhook/ on Sat Jun 09 16:30:51 UTC 2018
+Using strategy: Default
+[poll] Last Built Revision: Revision 224d6512b65d29ec2e3b819ca63c6136b489ad3b (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+Found 1 remote heads on https://github.com/Maruthi-Manoj/Docker.git
+[poll] Latest remote head revision on refs/heads/master is: 5d328c452b8a45d9c45f692e9823d40a22beda2c
+Using strategy: Default
+[poll] Last Built Revision: Revision 224d6512b65d29ec2e3b819ca63c6136b489ad3b (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+Found 1 remote heads on https://github.com/Maruthi-Manoj/Docker.git
+[poll] Latest remote head revision on refs/heads/master is: 5d328c452b8a45d9c45f692e9823d40a22beda2c
+Using strategy: Default
+[poll] Last Built Revision: Revision 224d6512b65d29ec2e3b819ca63c6136b489ad3b (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+Found 1 remote heads on https://github.com/Maruthi-Manoj/Docker.git
+[poll] Latest remote head revision on refs/heads/master is: 5d328c452b8a45d9c45f692e9823d40a22beda2c
+Using strategy: Default
+[poll] Last Built Revision: Revision 224d6512b65d29ec2e3b819ca63c6136b489ad3b (refs/remotes/origin/master)
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+Found 1 remote heads on https://github.com/Maruthi-Manoj/Docker.git
+[poll] Latest remote head revision on refs/heads/master is: 5d328c452b8a45d9c45f692e9823d40a22beda2c
+Done. Took 1.2 sec
+Changes found

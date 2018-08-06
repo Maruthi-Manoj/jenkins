@@ -1,0 +1,28 @@
+Started by user [8mha:////4Efp0/2sqJSHgOp2keW96WryiSDlF4ojeq0gs4pJGmDwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mManoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/sprint
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:Maruthi-Manoj/devops-1.git # timeout=10
+Fetching upstream changes from git@github.com:Maruthi-Manoj/devops-1.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:Maruthi-Manoj/devops-1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 91799ef6e0d8e75108f55f28278f7325f0a6ccf0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 91799ef6e0d8e75108f55f28278f7325f0a6ccf0
+Commit message: "Update start_newsprint.py"
+ > git rev-list --no-walk 91799ef6e0d8e75108f55f28278f7325f0a6ccf0 # timeout=10
+[sprint] $ /bin/sh -xe /tmp/jenkins6848176798678387008.sh
++ python start_newsprint.py
+working on /Spark
+Branch 17.10.4 created from developn-1
+ERROR MESSAGE: Head does not exist
+Traceback (most recent call last):
+  File "start_newsprint.py", line 115, in merge_branch_to_branch
+    raise RuntimeError("Error message in request")
+RuntimeError: Error message in request
+Could not merge branch develop into developn-1
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

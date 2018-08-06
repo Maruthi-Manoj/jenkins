@@ -1,0 +1,11 @@
+Started on Aug 6, 2018 12:02:37 AM
+Started by event from 192.30.252.40 ⇒ http://35.227.76.116:8080/github-webhook/ on Mon Aug 06 00:02:37 UTC 2018
+Using strategy: Default
+[poll] Last Built Revision: Revision b831c40fab74797e425e72f8e641f619305430e9 (refs/remotes/stock/madhu_dev)
+ > git --version # timeout=10
+using GIT_SSH to set credentials second key for jenkins user
+ > git ls-remote -h git@github.com:mkolla01/StockCheck.git # timeout=10
+Found 16 remote heads on git@github.com:mkolla01/StockCheck.git
+[poll] Latest remote head revision on refs/heads/madhu_dev is: 3caac44c27ecf4b75ce5cde572b9b5110b75ddad
+Done. Took 0.3 sec
+Changes found

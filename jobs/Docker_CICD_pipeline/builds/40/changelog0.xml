@@ -1,0 +1,44 @@
+commit a4b1fc187dca0906e9017b96fc8d8796dceb1532
+tree 118a15a966c1551e46d9839b7379812648a2c679
+parent bca40cef04d02c2c5ae6b65f3cc28eb00ea6d064
+author Venkata Maruthi Manoj Naladala <24302828+Maruthi-Manoj@users.noreply.github.com> 2018-06-09 12:15:11 -0400
+committer GitHub <noreply@github.com> 2018-06-09 12:15:11 -0400
+
+    Update hellowhale-deployment.yaml
+
+
+
+:100644 100644 ecc0644cf85a9e7c5f9b5e7fbab7ac8def74320b 59f8fd07b8aa2227dbe6d207d35e66d311d2f893 M	manifest/hellowhale-deployment.yaml
+commit bca40cef04d02c2c5ae6b65f3cc28eb00ea6d064
+tree e5761bcbb280c0ce13cdf3d5daca1061c4a94a98
+parent 08a9e8b1cab5234805dcf02c66467538791d668d
+author Venkata Maruthi Manoj Naladala <24302828+Maruthi-Manoj@users.noreply.github.com> 2018-06-09 12:13:49 -0400
+committer GitHub <noreply@github.com> 2018-06-09 12:13:49 -0400
+
+    Update index.html
+
+
+
+:100644 100644 195d12e36f16c4d367dc888aedb99ea917d765e3 b2fdc7644798b1a766d9f3c0bae1c7e3ff5f5746 M	html/index.html
+commit 08a9e8b1cab5234805dcf02c66467538791d668d
+tree 7595b66c340297b1dfacfa76ee69c111276f98e7
+parent 2c24199b9b328c3b570ae1846bd1d8d3659dbf32
+author Venkata Maruthi Manoj Naladala <24302828+Maruthi-Manoj@users.noreply.github.com> 2018-06-08 00:07:40 -0400
+committer GitHub <noreply@github.com> 2018-06-08 00:07:40 -0400
+
+    Update index.html
+
+
+
+:100644 100644 b4a3dd2ff06136aa74e5253e6e306ff957acd171 195d12e36f16c4d367dc888aedb99ea917d765e3 M	html/index.html
+commit 2c24199b9b328c3b570ae1846bd1d8d3659dbf32
+tree 2dbfcedc9520f18623a6ef6b51ad017006d7e71b
+parent 37b910c4e01000d25fd79452933cd13630eb4cd8
+author Venkata Maruthi Manoj Naladala <24302828+Maruthi-Manoj@users.noreply.github.com> 2018-06-08 00:06:25 -0400
+committer GitHub <noreply@github.com> 2018-06-08 00:06:25 -0400
+
+    Update index.html
+
+
+
+:100644 100644 70cf3666491cd271cea950171356037e484c3fad b4a3dd2ff06136aa74e5253e6e306ff957acd171 M	html/index.html

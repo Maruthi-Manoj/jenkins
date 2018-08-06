@@ -1,0 +1,68 @@
+Started by GitHub push by Maruthi-Manoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/push_from_Manoj-ci_to_Develop
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Maruthi-Manoj/Devops.git # timeout=10
+Fetching upstream changes from https://github.com/Maruthi-Manoj/Devops.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Maruthi-Manoj/Devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/Manoj-ci^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/Manoj-ci^{commit} # timeout=10
+Checking out Revision 7f90d11d8b3443834083f2f4b6a007521eef2fe3 (refs/remotes/origin/Manoj-ci)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7f90d11d8b3443834083f2f4b6a007521eef2fe3
+Commit message: "Update readme.text"
+ > git rev-list --no-walk cb4df7b33abdc93c8d704b05c0a28683f82a5a4a # timeout=10
+[push_from_Manoj-ci_to_Develop] $ /bin/sh -xe /tmp/jenkins3694973210546709877.sh
++ python helloworld.py
+/home/jenkins/workspace/push_from_Manoj-ci_to_Develop
+helloworld.py
+readme.text
+temp.text
+hello Manoj
+Pushing HEAD to branch Develop at repo origin
+ > git --version # timeout=10
+ > git push https://github.com/Maruthi-Manoj/Devops.git HEAD:Develop
+ERROR: Failed to push branch Develop to origin
+hudson.plugins.git.GitException: Command "git push https://github.com/Maruthi-Manoj/Devops.git HEAD:Develop" returned status code 128:
+stdout: 
+stderr: remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Maruthi-Manoj/Devops.git/'
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2002)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1721)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$300(CliGitAPIImpl.java:72)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$8.execute(CliGitAPIImpl.java:2081)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1.call(RemoteGitImpl.java:153)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1.call(RemoteGitImpl.java:146)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:212)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	Suppressed: hudson.remoting.Channel$CallSiteStackTrace: Remote call to jenkins-slave1
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1741)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:357)
+		at hudson.remoting.Channel.call(Channel.java:955)
+		at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.execute(RemoteGitImpl.java:146)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.invoke(RemoteGitImpl.java:132)
+		at com.sun.proxy.$Proxy90.execute(Unknown Source)
+		at hudson.plugins.git.GitPublisher.perform(GitPublisher.java:328)
+		at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:45)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+		at hudson.model.Build$BuildExecution.post2(Build.java:186)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+		at hudson.model.Run.execute(Run.java:1819)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+		at hudson.model.ResourceController.execute(ResourceController.java:97)
+		at hudson.model.Executor.run(Executor.java:429)
+Build step 'Git Publisher' marked build as failure
+Finished: FAILURE

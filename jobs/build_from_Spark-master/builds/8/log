@@ -1,0 +1,372 @@
+Started by user [8mha:////4Efp0/2sqJSHgOp2keW96WryiSDlF4ojeq0gs4pJGmDwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mManoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/build_from_Spark-master
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:Maruthi-Manoj/devops-1.git # timeout=10
+Fetching upstream changes from git@github.com:Maruthi-Manoj/devops-1.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:Maruthi-Manoj/devops-1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7d0d53c8ef1e72cb08ed429e1391a78c6eff79d4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7d0d53c8ef1e72cb08ed429e1391a78c6eff79d4
+Commit message: "Update fabfile.py"
+ > git rev-list --no-walk ec4b462c7e6a3857f3b07d869927e06871d77edb # timeout=10
+[build_from_Spark-master] $ /bin/sh -xe /tmp/jenkins4908135672907774406.sh
++ fab build_xap
+[35.231.84.32] Executing task 'build_xap'
+[35.231.84.32] run: rm -rf /root/rpm_building/Spark
+[35.231.84.32] run: git clone git@github.com:Maruthi-Manoj/Spark.git --branch develop
+[35.231.84.32] out: Initialized empty Git repository in /root/rpm_building/Spark/.git/
+[35.231.84.32] out: remote: Counting objects: 145, done.[K
+[35.231.84.32] out: remote: Compressing objects:   0% (1/102)   [K
+[35.231.84.32] out: remote: Compressing objects:   1% (2/102)   [K
+[35.231.84.32] out: remote: Compressing objects:   2% (3/102)   [K
+[35.231.84.32] out: remote: Compressing objects:   3% (4/102)   [K
+[35.231.84.32] out: remote: Compressing objects:   4% (5/102)   [K
+[35.231.84.32] out: remote: Compressing objects:   5% (6/102)   [K
+[35.231.84.32] out: remote: Compressing objects:   6% (7/102)   [K
+[35.231.84.32] out: remote: Compressing objects:   7% (8/102)   [K
+[35.231.84.32] out: remote: Compressing objects:   8% (9/102)   [K
+[35.231.84.32] out: remote: Compressing objects:   9% (10/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  10% (11/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  11% (12/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  12% (13/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  13% (14/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  14% (15/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  15% (16/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  16% (17/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  17% (18/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  18% (19/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  19% (20/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  20% (21/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  21% (22/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  22% (23/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  23% (24/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  24% (25/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  25% (26/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  26% (27/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  27% (28/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  28% (29/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  29% (30/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  30% (31/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  31% (32/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  32% (33/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  33% (34/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  34% (35/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  35% (36/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  36% (37/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  37% (38/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  38% (39/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  39% (40/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  40% (41/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  41% (42/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  42% (43/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  43% (44/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  44% (45/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  45% (46/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  46% (47/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  47% (48/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  48% (49/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  49% (50/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  50% (51/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  51% (53/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  52% (54/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  53% (55/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  54% (56/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  55% (57/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  56% (58/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  57% (59/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  58% (60/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  59% (61/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  60% (62/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  61% (63/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  62% (64/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  63% (65/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  64% (66/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  65% (67/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  66% (68/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  67% (69/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  68% (70/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  69% (71/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  70% (72/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  71% (73/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  72% (74/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  73% (75/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  74% (76/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  75% (77/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  76% (78/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  77% (79/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  78% (80/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  79% (81/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  80% (82/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  81% (83/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  82% (84/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  83% (85/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  84% (86/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  85% (87/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  86% (88/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  87% (89/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  88% (90/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  89% (91/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  90% (92/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  91% (93/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  92% (94/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  93% (95/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  94% (96/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  95% (97/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  96% (98/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  97% (99/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  98% (100/102)   [K
+[35.231.84.32] out: remote: Compressing objects:  99% (101/102)   [K
+[35.231.84.32] out: remote: Compressing objects: 100% (102/102)   [K
+[35.231.84.32] out: remote: Compressing objects: 100% (102/102), done.[K
+[35.231.84.32] out: Receiving objects:   0% (1/145)   
+[35.231.84.32] out: Receiving objects:   1% (2/145)   
+[35.231.84.32] out: Receiving objects:   2% (3/145)   
+[35.231.84.32] out: Receiving objects:   3% (5/145)   
+[35.231.84.32] out: Receiving objects:   4% (6/145)   
+[35.231.84.32] out: Receiving objects:   5% (8/145)   
+[35.231.84.32] out: Receiving objects:   6% (9/145)   
+[35.231.84.32] out: Receiving objects:   7% (11/145)   
+[35.231.84.32] out: Receiving objects:   8% (12/145)   
+[35.231.84.32] out: Receiving objects:   9% (14/145)   
+[35.231.84.32] out: Receiving objects:  10% (15/145)   
+[35.231.84.32] out: Receiving objects:  11% (16/145)   
+[35.231.84.32] out: Receiving objects:  12% (18/145)   
+[35.231.84.32] out: Receiving objects:  13% (19/145)   
+[35.231.84.32] out: Receiving objects:  14% (21/145)   
+[35.231.84.32] out: Receiving objects:  15% (22/145)   
+[35.231.84.32] out: Receiving objects:  16% (24/145)   
+[35.231.84.32] out: Receiving objects:  17% (25/145)   
+[35.231.84.32] out: Receiving objects:  18% (27/145)   
+[35.231.84.32] out: Receiving objects:  19% (28/145)   
+[35.231.84.32] out: Receiving objects:  20% (29/145)   
+[35.231.84.32] out: Receiving objects:  21% (31/145)   
+[35.231.84.32] out: Receiving objects:  22% (32/145)   
+[35.231.84.32] out: Receiving objects:  23% (34/145)   
+[35.231.84.32] out: Receiving objects:  24% (35/145)   
+[35.231.84.32] out: Receiving objects:  25% (37/145)   
+[35.231.84.32] out: Receiving objects:  26% (38/145)   
+[35.231.84.32] out: Receiving objects:  27% (40/145)   
+[35.231.84.32] out: Receiving objects:  28% (41/145)   
+[35.231.84.32] out: Receiving objects:  29% (43/145)   
+[35.231.84.32] out: Receiving objects:  30% (44/145)   
+[35.231.84.32] out: Receiving objects:  31% (45/145)   
+[35.231.84.32] out: Receiving objects:  32% (47/145)   
+[35.231.84.32] out: Receiving objects:  33% (48/145)   
+[35.231.84.32] out: Receiving objects:  34% (50/145)   
+[35.231.84.32] out: Receiving objects:  35% (51/145)   
+[35.231.84.32] out: Receiving objects:  36% (53/145)   
+[35.231.84.32] out: Receiving objects:  37% (54/145)   
+[35.231.84.32] out: Receiving objects:  38% (56/145)   
+[35.231.84.32] out: Receiving objects:  39% (57/145)   
+[35.231.84.32] out: Receiving objects:  40% (58/145)   
+[35.231.84.32] out: Receiving objects:  41% (60/145)   
+[35.231.84.32] out: Receiving objects:  42% (61/145)   
+[35.231.84.32] out: Receiving objects:  43% (63/145)   
+[35.231.84.32] out: Receiving objects:  44% (64/145)   
+[35.231.84.32] out: Receiving objects:  45% (66/145)   
+[35.231.84.32] out: Receiving objects:  46% (67/145)   
+[35.231.84.32] out: Receiving objects:  47% (69/145)   
+[35.231.84.32] out: Receiving objects:  48% (70/145)   
+[35.231.84.32] out: Receiving objects:  49% (72/145)   
+[35.231.84.32] out: Receiving objects:  50% (73/145)   
+[35.231.84.32] out: Receiving objects:  51% (74/145)   
+[35.231.84.32] out: Receiving objects:  52% (76/145)   
+[35.231.84.32] out: Receiving objects:  53% (77/145)   
+[35.231.84.32] out: Receiving objects:  54% (79/145)   
+[35.231.84.32] out: Receiving objects:  55% (80/145)   
+[35.231.84.32] out: Receiving objects:  56% (82/145)   
+[35.231.84.32] out: Receiving objects:  57% (83/145)   
+[35.231.84.32] out: Receiving objects:  58% (85/145)   
+[35.231.84.32] out: Receiving objects:  59% (86/145)   
+[35.231.84.32] out: Receiving objects:  60% (87/145)   
+[35.231.84.32] out: Receiving objects:  61% (89/145)   
+[35.231.84.32] out: Receiving objects:  62% (90/145)   
+[35.231.84.32] out: Receiving objects:  63% (92/145)   
+[35.231.84.32] out: Receiving objects:  64% (93/145)   
+[35.231.84.32] out: Receiving objects:  65% (95/145)   
+[35.231.84.32] out: Receiving objects:  66% (96/145)   
+[35.231.84.32] out: Receiving objects:  67% (98/145)   
+[35.231.84.32] out: Receiving objects:  68% (99/145)   
+[35.231.84.32] out: Receiving objects:  69% (101/145)   
+[35.231.84.32] out: Receiving objects:  70% (102/145)   
+[35.231.84.32] out: Receiving objects:  71% (103/145)   
+[35.231.84.32] out: Receiving objects:  72% (105/145)   
+[35.231.84.32] out: Receiving objects:  73% (106/145)   
+[35.231.84.32] out: Receiving objects:  74% (108/145)   
+[35.231.84.32] out: Receiving objects:  75% (109/145)   
+[35.231.84.32] out: Receiving objects:  76% (111/145)   
+[35.231.84.32] out: Receiving objects:  77% (112/145)   
+[35.231.84.32] out: Receiving objects:  78% (114/145)   
+[35.231.84.32] out: Receiving objects:  79% (115/145)   
+[35.231.84.32] out: Receiving objects:  80% (116/145)   
+[35.231.84.32] out: Receiving objects:  81% (118/145)   
+[35.231.84.32] out: Receiving objects:  82% (119/145)   
+[35.231.84.32] out: Receiving objects:  83% (121/145)   
+[35.231.84.32] out: Receiving objects:  84% (122/145)   
+[35.231.84.32] out: Receiving objects:  85% (124/145)   
+[35.231.84.32] out: Receiving objects:  86% (125/145)   
+[35.231.84.32] out: Receiving objects:  87% (127/145)   
+[35.231.84.32] out: Receiving objects:  88% (128/145)   
+[35.231.84.32] out: Receiving objects:  89% (130/145)   
+[35.231.84.32] out: Receiving objects:  90% (131/145)   
+[35.231.84.32] out: Receiving objects:  91% (132/145)   
+[35.231.84.32] out: Receiving objects:  92% (134/145)   
+[35.231.84.32] out: Receiving objects:  93% (135/145)   
+[35.231.84.32] out: Receiving objects:  94% (137/145)   
+[35.231.84.32] out: Receiving objects:  95% (138/145)   
+[35.231.84.32] out: remote: Total 145 (delta 39), reused 103 (delta 20), pack-reused 0[K
+[35.231.84.32] out: Receiving objects:  96% (140/145)   
+[35.231.84.32] out: Receiving objects:  97% (141/145)   
+[35.231.84.32] out: Receiving objects:  98% (143/145)   
+[35.231.84.32] out: Receiving objects:  99% (144/145)   
+[35.231.84.32] out: Receiving objects: 100% (145/145)   
+[35.231.84.32] out: Receiving objects: 100% (145/145), 105.05 KiB, done.
+[35.231.84.32] out: Resolving deltas:   0% (0/39)   
+[35.231.84.32] out: Resolving deltas:   5% (2/39)   
+[35.231.84.32] out: Resolving deltas:   7% (3/39)   
+[35.231.84.32] out: Resolving deltas:  17% (7/39)   
+[35.231.84.32] out: Resolving deltas:  20% (8/39)   
+[35.231.84.32] out: Resolving deltas:  28% (11/39)   
+[35.231.84.32] out: Resolving deltas:  30% (12/39)   
+[35.231.84.32] out: Resolving deltas:  33% (13/39)   
+[35.231.84.32] out: Resolving deltas:  41% (16/39)   
+[35.231.84.32] out: Resolving deltas:  43% (17/39)   
+[35.231.84.32] out: Resolving deltas:  61% (24/39)   
+[35.231.84.32] out: Resolving deltas:  64% (25/39)   
+[35.231.84.32] out: Resolving deltas:  66% (26/39)   
+[35.231.84.32] out: Resolving deltas:  69% (27/39)   
+[35.231.84.32] out: Resolving deltas:  71% (28/39)   
+[35.231.84.32] out: Resolving deltas:  74% (29/39)   
+[35.231.84.32] out: Resolving deltas:  82% (32/39)   
+[35.231.84.32] out: Resolving deltas:  87% (34/39)   
+[35.231.84.32] out: Resolving deltas:  89% (35/39)   
+[35.231.84.32] out: Resolving deltas:  94% (37/39)   
+[35.231.84.32] out: Resolving deltas: 100% (39/39)   
+[35.231.84.32] out: Resolving deltas: 100% (39/39), done.
+[35.231.84.32] out: 
+
+[35.231.84.32] run: git log -1 --oneline
+[35.231.84.32] out: [?1h=
+[35.231.84.32] out: c859d4d Create sprint_version.txt[m
+[35.231.84.32] out: 
+[35.231.84.32] out: [K[?1l>
+[35.231.84.32] run: GZIP=-9 tar -cvzf Spark.tar.gz --exclude=.git -C Spark .
+[35.231.84.32] out: ./
+[35.231.84.32] out: ./sprint_version.txt
+[35.231.84.32] out: ./example1/
+[35.231.84.32] out: ./example1/program/
+[35.231.84.32] out: ./example1/program/join_two_csv_and_sum_using_tempview.py
+[35.231.84.32] out: ./example1/program/change.py
+[35.231.84.32] out: ./example1/program/join_two_csv_and_sum_using_dataframes.py
+[35.231.84.32] out: ./example1/program/output/
+[35.231.84.32] out: ./example1/program/output/join_two_csv_and_sum_using_tempview_25_20180620.csv/
+[35.231.84.32] out: ./example1/program/output/join_two_csv_and_sum_using_tempview_25_20180620.csv/._SUCCESS.crc
+[35.231.84.32] out: ./example1/program/output/join_two_csv_and_sum_using_tempview_25_20180620.csv/.part-00000-0d89bffc-7de8-4f5d-8fc3-63398f1e72dc-c000.csv.crc
+[35.231.84.32] out: ./example1/program/output/join_two_csv_and_sum_using_tempview_25_20180620.csv/_SUCCESS
+[35.231.84.32] out: ./example1/program/output/join_two_csv_and_sum_using_tempview_25_20180620.csv/part-00000-0d89bffc-7de8-4f5d-8fc3-63398f1e72dc-c000.csv
+[35.231.84.32] out: ./example1/program/output/change_capture_25_20180621.csv/
+[35.231.84.32] out: ./example1/program/output/change_capture_25_20180621.csv/part-00000-2114bd67-25a5-477b-a3bf-bb2e6910cecd-c000.csv
+[35.231.84.32] out: ./example1/program/output/change_capture_25_20180621.csv/._SUCCESS.crc
+[35.231.84.32] out: ./example1/program/output/change_capture_25_20180621.csv/_SUCCESS
+[35.231.84.32] out: ./example1/program/output/change_capture_25_20180621.csv/.part-00000-2114bd67-25a5-477b-a3bf-bb2e6910cecd-c000.csv.crc
+[35.231.84.32] out: ./example1/program/output/join_two_csv_and_aggregate_with_dataframes_25_20180620.csv/
+[35.231.84.32] out: ./example1/program/output/join_two_csv_and_aggregate_with_dataframes_25_20180620.csv/._SUCCESS.crc
+[35.231.84.32] out: ./example1/program/output/join_two_csv_and_aggregate_with_dataframes_25_20180620.csv/.part-00000-b683b402-c48e-45ef-a1c5-657306a29d61-c000.csv.crc
+[35.231.84.32] out: ./example1/program/output/join_two_csv_and_aggregate_with_dataframes_25_20180620.csv/part-00000-b683b402-c48e-45ef-a1c5-657306a29d61-c000.csv
+[35.231.84.32] out: ./example1/program/output/join_two_csv_and_aggregate_with_dataframes_25_20180620.csv/_SUCCESS
+[35.231.84.32] out: ./example1/program/data/
+[35.231.84.32] out: ./example1/program/data/aggregate_sales_example.csv
+[35.231.84.32] out: ./example1/program/data/hierarchical_data_new.csv
+[35.231.84.32] out: ./example1/program/data/hierarchical_data.csv
+[35.231.84.32] out: ./example1/program/data/change_capture_example.csv
+[35.231.84.32] out: ./example1/program/data/filename.docx
+[35.231.84.32] out: ./example1/program/data/product_sales_data.csv
+[35.231.84.32] out: ./example3/
+[35.231.84.32] out: ./example3/program/
+[35.231.84.32] out: ./example3/program/customer-orders-total-purchase-by-customer.py
+[35.231.84.32] out: ./example3/program/output/
+[35.231.84.32] out: ./example3/program/output/customer-orders-total-purchase-by-a-customer/
+[35.231.84.32] out: ./example3/program/output/customer-orders-total-purchase-by-a-customer/._SUCCESS.crc
+[35.231.84.32] out: ./example3/program/output/customer-orders-total-purchase-by-a-customer/.part-00000.crc
+[35.231.84.32] out: ./example3/program/output/customer-orders-total-purchase-by-a-customer/part-00000
+[35.231.84.32] out: ./example3/program/output/customer-orders-total-purchase-by-a-customer/_SUCCESS
+[35.231.84.32] out: ./example3/program/data/
+[35.231.84.32] out: ./example3/program/data/customer_orders.csv
+[35.231.84.32] out: ./example2/
+[35.231.84.32] out: ./example2/program/
+[35.231.84.32] out: ./example2/program/fakefriends_aggregate_using_dataframes.py
+[35.231.84.32] out: ./example2/program/output/
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_dataframes25_20180621.csv/
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_dataframes25_20180621.csv/._SUCCESS.crc
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_dataframes25_20180621.csv/_SUCCESS
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_dataframes25_20180621.csv/part-00000-b3c31b14-b70b-4b7c-aea2-dedb1f406120-c000.csv
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_dataframes25_20180621.csv/.part-00000-b3c31b14-b70b-4b7c-aea2-dedb1f406120-c000.csv.crc
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_tempview25_20180621.csv/
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_tempview25_20180621.csv/._SUCCESS.crc
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_tempview25_20180621.csv/part-00000-62fcc020-8d31-48f1-ac46-365b19e9cdbd-c000.csv
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_tempview25_20180621.csv/.part-00000-62fcc020-8d31-48f1-ac46-365b19e9cdbd-c000.csv.crc
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_tempview25_20180621.csv/_SUCCESS
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_textFile25_20180621.csv/
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_textFile25_20180621.csv/._SUCCESS.crc
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_textFile25_20180621.csv/.part-00000.crc
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_textFile25_20180621.csv/part-00000
+[35.231.84.32] out: ./example2/program/output/fakefriends_aggregate_using_textFile25_20180621.csv/_SUCCESS
+[35.231.84.32] out: ./example2/program/data/
+[35.231.84.32] out: ./example2/program/data/.fakefriends.csv.swp
+[35.231.84.32] out: ./example2/program/data/friends.csv
+[35.231.84.32] out: ./example2/program/fakefriends_aggregate_using_tempview.py
+[35.231.84.32] out: ./example2/program/fakefriends_aggregate_using_textFile.py
+[35.231.84.32] out: ./example4/
+[35.231.84.32] out: ./example4/movie.py
+[35.231.84.32] out: ./example4/output
+[35.231.84.32] out: 
+
+[35.231.84.32] run: mkdir -p /www/html/repos/xpc/18.1.1
+[35.231.84.32] run: ls -al /www/html/repos/xpc/18.1.1 2>/dev/null
+[35.231.84.32] out: total 8
+[35.231.84.32] out: drwxr-xr-x  2 root root 4096 Jul  1 01:53 .
+[35.231.84.32] out: drwxr-xr-x. 5 root root 4096 Jul  1 01:53 ..
+[35.231.84.32] out: 
+
+Next build set to 01 and latest sha is None
+[35.231.84.32] run: mkdir -p /www/html/repos/xpc/18.1.1
+[35.231.84.32] run: ls -al /www/html/repos/xpc/18.1.1 2>/dev/null
+[35.231.84.32] out: total 8
+[35.231.84.32] out: drwxr-xr-x  2 root root 4096 Jul  1 01:53 .
+[35.231.84.32] out: drwxr-xr-x. 5 root root 4096 Jul  1 01:53 ..
+[35.231.84.32] out: 
+
+Next build set to 01 and latest sha is None
+[35.231.84.32] run: fpm -f -s tar -t rpm -n Spark -v 18.1.1 --iteration 01.c859d4d --description "c859d4d" --license '2018. manohar. All rights reserved.' --url 'https://github.com/Maruthi-Manoj' --directories /app/Spark-18.1.1-01.c859d4d --prefix /app/Spark-18.1.1-01.c859d4d Spark.tar.gz
+[35.231.84.32] out: [33mno value for epoch is set, defaulting to nil {:level=>:warn}[0m
+[35.231.84.32] out: [33mno value for epoch is set, defaulting to nil {:level=>:warn}[0m
+[35.231.84.32] out: Created package {:path=>"Spark-18.1.1-01.c859d4d.x86_64.rpm"}
+[35.231.84.32] out: 
+
+[35.231.84.32] run: chmod 666 Spark-18.1.1-01.c859d4d.x86_64.rpm
+[35.231.84.32] run: mkdir -p /www/html/repos/xpc/18.1.1
+[35.231.84.32] run: mkdir -p /www/html/xpc/x86_64/6/global
+[35.231.84.32] run: cp -r Spark-18.1.1-01.c859d4d.x86_64.rpm /www2/ATLAS/x86_64/6/global/.
+[35.231.84.32] run: mv Spark-18.1.1-01.c859d4d.x86_64.rpm /www/html/repos/xpc/18.1.1/.
+[35.231.84.32] run: rm -rf Spark.tar.gz
+
+Done.
+Disconnecting from 35.231.84.32... done.
++ fab update_xap
+
+Warning: Command(s) not found:
+    update_xap
+
+Available commands:
+
+    add_virtualenv
+    build_xap       Build rpm of target
+    update_atlas
+    update_xaprepo
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

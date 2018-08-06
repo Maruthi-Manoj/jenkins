@@ -1,0 +1,22 @@
+Started by GitHub push by Maruthi-Manoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/MadhuDevMerge
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.stock.url git@github.com:mkolla01/StockCheck.git # timeout=10
+Fetching upstream changes from git@github.com:mkolla01/StockCheck.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials second key for jenkins user
+ > git fetch --tags --progress git@github.com:mkolla01/StockCheck.git +refs/heads/*:refs/remotes/stock/*
+ > git rev-parse stock/madhu_dev^{commit} # timeout=10
+Checking out Revision b6b1797eb07c09ff3dfded90e9c3cd2a9ff86caf (stock/madhu_dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b6b1797eb07c09ff3dfded90e9c3cd2a9ff86caf
+Commit message: "Merge pull request #17 from mkolla01/madhu_working"
+ > git rev-list --no-walk ab2cc2a7b823bd493ef3c431c15128ccc4fe2f62 # timeout=10
+[MadhuDevMerge] $ /bin/sh -xe /tmp/jenkins8345397096275384123.sh
++ exit 0
+Pushing HEAD to branch develop at repo stock
+ > git --version # timeout=10
+using GIT_SSH to set credentials second key for jenkins user
+ > git push git@github.com:mkolla01/StockCheck.git HEAD:develop
+Finished: SUCCESS

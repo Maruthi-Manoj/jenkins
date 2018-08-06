@@ -1,0 +1,26 @@
+Started by GitHub push by Maruthi-Manoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/Manoj_spark_build-ci
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.spark.url git@github.com:Maruthi-Manoj/Spark.git # timeout=10
+Fetching upstream changes from git@github.com:Maruthi-Manoj/Spark.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:Maruthi-Manoj/Spark.git +refs/heads/*:refs/remotes/spark/*
+ > git rev-parse refs/remotes/spark/Manoj-ci^{commit} # timeout=10
+ > git rev-parse refs/remotes/spark/spark/Manoj-ci^{commit} # timeout=10
+Checking out Revision a6e0304c36071e880301e06fefef5d8955f21165 (refs/remotes/spark/Manoj-ci)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a6e0304c36071e880301e06fefef5d8955f21165
+Commit message: "Merge pull request #9 from Maruthi-Manoj/manoj-work"
+ > git rev-list --no-walk 38250d7ff561184ed40f4404823a8d34aee6fd3d # timeout=10
+[Manoj_spark_build-ci] $ /bin/sh -xe /tmp/jenkins1371174383536175643.sh
++ find . -name '*.py'
++ xargs pyflakes
++ exit 0
+Pushing HEAD to branch develop at repo spark
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git push git@github.com:Maruthi-Manoj/Spark.git HEAD:develop -f
+Triggering a new build of [8mha:////4Bgv1NN75l2g/7jcnZe5uzu6Ess4TqzaIY6c0gegx5W8AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZZ/az8JP2k0syclPi0ovzc+OCCxKJs3dzE4pLUIn0A4CO2b9IAAAA=[0mbuild_from_Spark-master
+Finished: SUCCESS

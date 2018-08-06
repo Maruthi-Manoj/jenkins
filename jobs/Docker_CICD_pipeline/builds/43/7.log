@@ -1,0 +1,20 @@
+Cloning the remote Git repository
+Cloning repository https://github.com/Maruthi-Manoj/Docker.git
+ > git init /home/jenkins/workspace/Docker_CICD_pipeline # timeout=10
+Fetching upstream changes from https://github.com/Maruthi-Manoj/Docker.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials credentials for git
+ > git fetch --tags --progress https://github.com/Maruthi-Manoj/Docker.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+Fetching upstream changes from https://github.com/Maruthi-Manoj/Docker.git
+using GIT_ASKPASS to set credentials credentials for git
+ > git fetch --tags --progress https://github.com/Maruthi-Manoj/Docker.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5d328c452b8a45d9c45f692e9823d40a22beda2c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5d328c452b8a45d9c45f692e9823d40a22beda2c
+Commit message: "Update index.html"
+ > git rev-list --no-walk 5d328c452b8a45d9c45f692e9823d40a22beda2c # timeout=10

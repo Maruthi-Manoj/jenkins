@@ -1,0 +1,13 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+Fetching upstream changes from https://github.com/Maruthi-Manoj/Docker.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Maruthi-Manoj/Docker.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 95dc97d0ec87b87fa1b5a56da181fc5f5a50b50b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 95dc97d0ec87b87fa1b5a56da181fc5f5a50b50b
+Commit message: "Update index.html"
+ > git rev-list --no-walk 744cc14d8d120e8d3ed030d4ab361c35e62cad4c # timeout=10

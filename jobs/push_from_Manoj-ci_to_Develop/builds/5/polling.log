@@ -1,0 +1,11 @@
+Started on May 29, 2018 3:31:38 PM
+Started by event from 192.30.252.34 ⇒ http://35.227.51.71:8080/github-webhook/ on Tue May 29 15:31:38 UTC 2018
+Using strategy: Default
+[poll] Last Built Revision: Revision 9c702c39e52a9634dba4a5f4d1845d5ca386d78b (refs/remotes/origin/Manoj-ci)
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git ls-remote -h git@github.com:Maruthi-Manoj/Devops.git # timeout=10
+Found 3 remote heads on git@github.com:Maruthi-Manoj/Devops.git
+[poll] Latest remote head revision on refs/heads/Manoj-ci is: cd2680a142f507c37809b270b12b6f6ef0e709cf
+Done. Took 0.43 sec
+Changes found

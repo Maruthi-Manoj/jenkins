@@ -1,0 +1,3 @@
+[Docker_CICD_pipeline@2] Running shell script
++ /home/jenkins/google-cloud-sdk/bin/kubectl set image deployment/hellowhale-deployment manojnaladala/devops:35
+the server doesn't have a resource type "manojnaladala"

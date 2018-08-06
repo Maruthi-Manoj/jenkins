@@ -1,0 +1,25 @@
+Started by GitHub push by Maruthi-Manoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/build_from_develop
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:Maruthi-Manoj/Devops.git # timeout=10
+Fetching upstream changes from git@github.com:Maruthi-Manoj/Devops.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:Maruthi-Manoj/Devops.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/Develop^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/Develop^{commit} # timeout=10
+Checking out Revision 2d7b787ee09f7ca25482df37c60ff7f6b0ef60f5 (refs/remotes/origin/Develop)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2d7b787ee09f7ca25482df37c60ff7f6b0ef60f5
+Commit message: "Update helloworld.py"
+ > git rev-list --no-walk f9f70de8cc0278929fb33a2e369407c0c878bdca # timeout=10
+[build_from_develop] $ /bin/sh -xe /tmp/jenkins3609973789137454969.sh
++ python helloworld.py
+/home/jenkins/workspace/build_from_develop
+helloworld.py
+readme.text
+temp.text
+hello Manoj
+build success on develop test 2
+Finished: SUCCESS

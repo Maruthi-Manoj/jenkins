@@ -1,0 +1,3 @@
+[Docker_CICD_pipeline@2] Running shell script
++ docker build -t manojnaladala/devops:43 .
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?

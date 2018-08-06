@@ -1,0 +1,3 @@
+[Docker_CICD_pipeline@2] Running shell script
++ echo 27
+27

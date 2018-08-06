@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@2.18">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2.53">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@2.27">
+      <startTime>1528561482781</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogActionImpl>
+      <charset>UTF-8</charset>
+    </s.a.LogActionImpl>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2.53">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/master</string>
+            <string>GIT_COMMIT=224d6512b65d29ec2e3b819ca63c6136b489ad3b</string>
+            <string>GIT_PREVIOUS_COMMIT=a4b1fc187dca0906e9017b96fc8d8796dceb1532</string>
+            <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT=37b910c4e01000d25fd79452933cd13630eb4cd8</string>
+            <string>GIT_URL=https://github.com/Maruthi-Manoj/Docker.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+  </actions>
+</Tag>

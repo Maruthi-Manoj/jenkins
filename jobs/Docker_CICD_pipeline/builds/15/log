@@ -1,0 +1,153 @@
+Started by user [8mha:////4Efp0/2sqJSHgOp2keW96WryiSDlF4ojeq0gs4pJGmDwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mManoj
+Obtained Jenkinsfile from git https://github.com/Maruthi-Manoj/Docker.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4MUUzg7qF+3hBLTy6Qd8rnSe9cscbRCWbhYxn3fZtmJUAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDfQAPzxkuzgAAAA==[0mjenkins-slave1 in /home/jenkins/workspace/Docker_CICD_pipeline@3
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning repository https://github.com/Maruthi-Manoj/Docker.git
+ > git init /home/jenkins/workspace/Docker_CICD_pipeline@3 # timeout=10
+Fetching upstream changes from https://github.com/Maruthi-Manoj/Docker.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Maruthi-Manoj/Docker.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+Fetching upstream changes from https://github.com/Maruthi-Manoj/Docker.git
+ > git fetch --tags --progress https://github.com/Maruthi-Manoj/Docker.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6023517c91c1dab11d0884dadb14b946e9049d2a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6023517c91c1dab11d0884dadb14b946e9049d2a
+Commit message: "Update Jenkinsfile"
+ > git rev-list --no-walk 6023517c91c1dab11d0884dadb14b946e9049d2a # timeout=10
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Docker Build)
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4MUUzg7qF+3hBLTy6Qd8rnSe9cscbRCWbhYxn3fZtmJUAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDfQAPzxkuzgAAAA==[0mjenkins-slave1 in /home/jenkins/workspace/Docker_CICD_pipeline@4
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+Cloning the remote Git repository
+Cloning repository https://github.com/Maruthi-Manoj/Docker.git
+ > git init /home/jenkins/workspace/Docker_CICD_pipeline@4 # timeout=10
+Fetching upstream changes from https://github.com/Maruthi-Manoj/Docker.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Maruthi-Manoj/Docker.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+Fetching upstream changes from https://github.com/Maruthi-Manoj/Docker.git
+ > git fetch --tags --progress https://github.com/Maruthi-Manoj/Docker.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6023517c91c1dab11d0884dadb14b946e9049d2a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6023517c91c1dab11d0884dadb14b946e9049d2a
+Commit message: "Update Jenkinsfile"
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Docker_CICD_pipeline@4] Running shell script
++ whoami
+jenkins
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Docker_CICD_pipeline@4] Running shell script
++ pwd
+/home/jenkins/workspace/Docker_CICD_pipeline@4
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Docker_CICD_pipeline@4] Running shell script
++ docker build -t manojnaladala/devops:latest .
+Sending build context to Docker daemon  143.4kB
+Step 1/5 : FROM nginx
+ ---> cd5239a0906a
+Step 2/5 : RUN apt-get update &&  apt-get -y install iputils-ping &&  apt-get -y install net-tools &&  apt-get -y install curl wget &&  apt-get -y install traceroute netcat dnsutils
+ ---> Using cache
+ ---> 91566ebe1086
+Step 3/5 : COPY wrapper.sh /
+ ---> Using cache
+ ---> 7ae2d87353e3
+Step 4/5 : COPY html /usr/share/nginx/html
+ ---> Using cache
+ ---> 3ffed50ef6c8
+Step 5/5 : CMD ["./wrapper.sh"]
+ ---> Using cache
+ ---> 4aeb230290c3
+Successfully built 4aeb230290c3
+Successfully tagged manojnaladala/devops:latest
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] { (Docker Push)
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4MUUzg7qF+3hBLTy6Qd8rnSe9cscbRCWbhYxn3fZtmJUAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDfQAPzxkuzgAAAA==[0mjenkins-slave1 in /home/jenkins/workspace/Docker_CICD_pipeline
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] checkout
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Maruthi-Manoj/Docker.git # timeout=10
+Fetching upstream changes from https://github.com/Maruthi-Manoj/Docker.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Maruthi-Manoj/Docker.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6023517c91c1dab11d0884dadb14b946e9049d2a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6023517c91c1dab11d0884dadb14b946e9049d2a
+Commit message: "Update Jenkinsfile"
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withEnv
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withCredentials
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Docker_CICD_pipeline] Running shell script
++ docker login -u **** -p ****
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /home/jenkins/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[Docker_CICD_pipeline] Running shell script
++ docker push ****/devops:latest
+The push refers to repository [docker.io/****/devops]
+867ab64fdee1: Preparing
+7e90f6e74376: Preparing
+e6b01fc54b28: Preparing
+3ff93588120e: Preparing
+24ee0a3fd4b9: Preparing
+d626a8ad97a1: Preparing
+d626a8ad97a1: Waiting
+3ff93588120e: Layer already exists
+e6b01fc54b28: Layer already exists
+7e90f6e74376: Layer already exists
+867ab64fdee1: Layer already exists
+d626a8ad97a1: Layer already exists
+24ee0a3fd4b9: Layer already exists
+latest: digest: sha256:ecaf0f4bffcf9472b9a54b17510d8e4f4d7e78ce03c7ebf8b972bd14efb09275 size: 1576
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withCredentials
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // stage
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withEnv
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4EOHPQ0CqSqTYO1zKgtgvTu12fscvZPU0YSUyBaKU5GcAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,16 @@
+commit 3ec76faf9a06c1b3d9b8d962dc532854f14814b3
+tree 966fb8fd77517613b2cfa5416b579d0c76863b6c
+parent 4d21be6619873014903d8be465b173507b123559
+author Maruthi-Manoj <maruthi.manoj.edu@gmail.com> 2018-06-25 03:23:30 +0000
+committer Maruthi-Manoj <maruthi.manoj.edu@gmail.com> 2018-06-25 03:23:30 +0000
+
+     unnecessary packages removed
+
+
+
+:100644 100644 0ddd0afc15121e8879dc65529304e2d926a0b613 26506d4084e084fe6669e3e3cd267092d70c021d M	example1/program/change.py
+:100644 100644 6643699c03fca2320b3dc01577004de44d2068a5 18db37b6da00463a7082e4fe5021de4ad0ffae39 M	example1/program/join_two_csv_and_sum_using_dataframes.py
+:100644 100644 4c2e13a6e2b4591b00ab7b287b79213ef3a0e704 0ba764b56682aad92bd77bca2ca5662652800428 M	example1/program/join_two_csv_and_sum_using_tempview.py
+:100644 100644 1cfe6d3a5d11a53f685ffaaa9fd2d94ff6382aef 9319e9e19b78e396408081ba3724e751ee887136 M	example2/program/fakefriends_aggregate_using_dataframes.py
+:100644 100644 a67255f78e5eeaae3e7b434ac78b4aaf71095377 ad2b581c9b50196ec076fa68e67583fb8c942cd6 M	example2/program/fakefriends_aggregate_using_tempview.py
+:100644 100644 1aad075794f0fc7167dda2a4afa0d71e3a4de45e 35cb5bde6555d6b800090ac394721ec5e122edb7 M	example2/program/fakefriends_aggregate_using_textFile.py

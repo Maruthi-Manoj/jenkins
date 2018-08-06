@@ -1,0 +1,34 @@
+Started by upstream project "[8mha:////4JAM+aByMp13upVEf02rmwzs/q/zFt9/A3Im9vtYZtTiAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYp/az8JH3fxLz8rPjigsSi7Pik0sycFN3kTH0AW/fBQc8AAAA=[0mManoj_spark_build-ci" build number [8mha:////4OEKTbXoJxciSi7hAUW5N+Ovca/HlpNI343X6ZjBZhmaAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYZ/az8JH3fxLz8rPjigsSi7Pik0sycFN3kTH1DAwBPLrwe0QAAAA==[0m10
+originally caused by:
+ Started by user [8mha:////4Efp0/2sqJSHgOp2keW96WryiSDlF4ojeq0gs4pJGmDwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mManoj
+Started by upstream project "[8mha:////4JAM+aByMp13upVEf02rmwzs/q/zFt9/A3Im9vtYZtTiAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYp/az8JH3fxLz8rPjigsSi7Pik0sycFN3kTH0AW/fBQc8AAAA=[0mManoj_spark_build-ci" build number [8mha:////4OKUF+f+42AknwLdWdf72o9smuu3DAqwo/kG6c0yV8BbAAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYZ/az8JH3fxLz8rPjigsSi7Pik0sycFN3kTH1DQwDZHrtp0QAAAA==[0m11
+originally caused by:
+ Started by user [8mha:////4Efp0/2sqJSHgOp2keW96WryiSDlF4ojeq0gs4pJGmDwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mManoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/build_from_Spark-master
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:Maruthi-Manoj/devops-1.git # timeout=10
+Fetching upstream changes from git@github.com:Maruthi-Manoj/devops-1.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:Maruthi-Manoj/devops-1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7d0d53c8ef1e72cb08ed429e1391a78c6eff79d4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7d0d53c8ef1e72cb08ed429e1391a78c6eff79d4
+Commit message: "Update fabfile.py"
+ > git rev-list --no-walk 7d0d53c8ef1e72cb08ed429e1391a78c6eff79d4 # timeout=10
+[build_from_Spark-master] $ /bin/sh -xe /tmp/jenkins4025435423781067369.sh
++ fab build_xap
+
+Fatal error: Host key for 35.231.84.32 did not match pre-existing key! Server's key was changed recently, or possible man-in-the-middle attack.
+
+Underlying exception:
+    ('35.231.84.32', <paramiko.rsakey.RSAKey object at 0x7f032ce5d1d0>, <paramiko.rsakey.RSAKey object at 0x7f032ce526d0>)
+
+Aborting.
+[35.231.84.32] Executing task 'build_xap'
+[35.231.84.32] run: rm -rf /root/rpm_building/Spark
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

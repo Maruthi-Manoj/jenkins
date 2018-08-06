@@ -1,0 +1,19 @@
+[Docker_CICD_pipeline@2] Running shell script
++ docker build -t manojnaladala/devops:41 .
+Sending build context to Docker daemon  304.1kB
+Step 1/5 : FROM nginx
+ ---> cd5239a0906a
+Step 2/5 : RUN apt-get update &&  apt-get -y install iputils-ping &&  apt-get -y install net-tools &&  apt-get -y install curl wget &&  apt-get -y install traceroute netcat dnsutils
+ ---> Using cache
+ ---> 91566ebe1086
+Step 3/5 : COPY wrapper.sh /
+ ---> Using cache
+ ---> 7ae2d87353e3
+Step 4/5 : COPY html /usr/share/nginx/html
+ ---> b96f19f1475f
+Step 5/5 : CMD ["./wrapper.sh"]
+ ---> Running in 15b9207817af
+Removing intermediate container 15b9207817af
+ ---> 7447ea1ee62c
+Successfully built 7447ea1ee62c
+Successfully tagged manojnaladala/devops:41

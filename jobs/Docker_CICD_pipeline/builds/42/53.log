@@ -1,0 +1,4 @@
+[Docker_CICD_pipeline@2] Running shell script
++ /home/jenkins/google-cloud-sdk/bin/kubectl version
+Client Version: version.Info{Major:"1", Minor:"9", GitVersion:"v1.9.7", GitCommit:"dd5e1a2978fd0b97d9b78e1564398aeea7e7fe92", GitTreeState:"clean", BuildDate:"2018-04-19T00:05:56Z", GoVersion:"go1.9.3", Compiler:"gc", Platform:"linux/amd64"}
+Server Version: version.Info{Major:"1", Minor:"8+", GitVersion:"v1.8.10-gke.0", GitCommit:"16ebd0de8e0ab2d1ef86d5b16ab1899b624a77cd", GitTreeState:"clean", BuildDate:"2018-03-20T20:21:01Z", GoVersion:"go1.8.3b4", Compiler:"gc", Platform:"linux/amd64"}

@@ -1,0 +1,17 @@
+[Docker_CICD_pipeline@2] Running shell script
++ docker push ****/devops:42
+The push refers to repository [docker.io/****/devops]
+8c754752e104: Preparing
+7e90f6e74376: Preparing
+e6b01fc54b28: Preparing
+3ff93588120e: Preparing
+24ee0a3fd4b9: Preparing
+d626a8ad97a1: Preparing
+d626a8ad97a1: Waiting
+3ff93588120e: Layer already exists
+e6b01fc54b28: Layer already exists
+7e90f6e74376: Layer already exists
+d626a8ad97a1: Layer already exists
+24ee0a3fd4b9: Layer already exists
+8c754752e104: Pushed
+42: digest: sha256:cc1868c220f42c6c18aaf96ba25282244b11e0c868d81dd5b76a9042ff2d07e1 size: 1576
