@@ -1,0 +1,67 @@
+Started by user [8mha:////4Efp0/2sqJSHgOp2keW96WryiSDlF4ojeq0gs4pJGmDwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mManoj
+Started by user [8mha:////4Efp0/2sqJSHgOp2keW96WryiSDlF4ojeq0gs4pJGmDwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mManoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/stockcheck_develop_to_build
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.stock.url git@github.com:mkolla01/StockCheck.git # timeout=10
+Fetching upstream changes from git@github.com:mkolla01/StockCheck.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials second key for jenkins user
+ > git fetch --tags --progress git@github.com:mkolla01/StockCheck.git +refs/heads/*:refs/remotes/stock/*
+ > git rev-parse stock/develop^{commit} # timeout=10
+Checking out Revision 3f99e33ec6e359672519180d36040b0eeed7e096 (stock/develop)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3f99e33ec6e359672519180d36040b0eeed7e096
+Commit message: "Merge pull request #19 from mkolla01/madhu_working"
+ > git rev-list --no-walk 3f99e33ec6e359672519180d36040b0eeed7e096 # timeout=10
+[stockcheck_develop_to_build] $ /home/jenkins/apache-maven-3.5.4/bin/mvn clean package
+[INFO] Scanning for projects...
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for com.abab.stocks:StockCheck:war:0.0.1-SNAPSHOT
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 53, column 21
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] 
+[INFO] ---------------------< com.abab.stocks:StockCheck >---------------------
+[INFO] Building StockCheck Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4PPdQowJ2SWwOLUX2hR1cjf5BbnY0pgmeVYfeMLrhgVmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ StockCheck ---
+[INFO] Deleting /home/jenkins/workspace/stockcheck_develop_to_build/target
+[INFO] 
+[8mha:////4PPdQowJ2SWwOLUX2hR1cjf5BbnY0pgmeVYfeMLrhgVmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ StockCheck ---
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/stockcheck_develop_to_build/src/main/resources
+[INFO] 
+[8mha:////4PPdQowJ2SWwOLUX2hR1cjf5BbnY0pgmeVYfeMLrhgVmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ StockCheck ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 6 source files to /home/jenkins/workspace/stockcheck_develop_to_build/target/classes
+[INFO] 
+[8mha:////4PPdQowJ2SWwOLUX2hR1cjf5BbnY0pgmeVYfeMLrhgVmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ StockCheck ---
+[8mha:////4LppuuHdMl503N5Y41riKftfbH204wNEtG7dQ4E+rlBWAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/stockcheck_develop_to_build/src/test/resources
+[INFO] 
+[8mha:////4PPdQowJ2SWwOLUX2hR1cjf5BbnY0pgmeVYfeMLrhgVmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ StockCheck ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4PPdQowJ2SWwOLUX2hR1cjf5BbnY0pgmeVYfeMLrhgVmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ StockCheck ---
+[INFO] 
+[8mha:////4PPdQowJ2SWwOLUX2hR1cjf5BbnY0pgmeVYfeMLrhgVmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ StockCheck ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [StockCheck] in [/home/jenkins/workspace/stockcheck_develop_to_build/target/StockCheck]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/jenkins/workspace/stockcheck_develop_to_build/src/main/webapp]
+[INFO] Webapp assembled in [147 msecs]
+[INFO] Building war: /home/jenkins/workspace/stockcheck_develop_to_build/target/StockCheck.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.628 s
+[INFO] Finished at: 2018-08-07T22:10:32Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

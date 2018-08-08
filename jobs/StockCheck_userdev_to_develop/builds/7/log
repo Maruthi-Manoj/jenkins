@@ -1,0 +1,75 @@
+Started by GitHub push by Maruthi-Manoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/StockCheck_userdev_to_develop
+Cloning the remote Git repository
+Cloning repository git@github.com:mkolla01/StockCheck.git
+ > git init /home/jenkins/workspace/StockCheck_userdev_to_develop # timeout=10
+Fetching upstream changes from git@github.com:mkolla01/StockCheck.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials second key for jenkins user
+ > git fetch --tags --progress git@github.com:mkolla01/StockCheck.git +refs/heads/*:refs/remotes/stock/*
+ > git config remote.stock.url git@github.com:mkolla01/StockCheck.git # timeout=10
+ > git config --add remote.stock.fetch +refs/heads/*:refs/remotes/stock/* # timeout=10
+ > git config remote.stock.url git@github.com:mkolla01/StockCheck.git # timeout=10
+Fetching upstream changes from git@github.com:mkolla01/StockCheck.git
+using GIT_SSH to set credentials second key for jenkins user
+ > git fetch --tags --progress git@github.com:mkolla01/StockCheck.git +refs/heads/*:refs/remotes/stock/*
+ > git rev-parse stock/madhu_dev^{commit} # timeout=10
+Checking out Revision 3f99e33ec6e359672519180d36040b0eeed7e096 (stock/madhu_dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3f99e33ec6e359672519180d36040b0eeed7e096
+Commit message: "Merge pull request #19 from mkolla01/madhu_working"
+ > git rev-list --no-walk b6b1797eb07c09ff3dfded90e9c3cd2a9ff86caf # timeout=10
+[StockCheck_userdev_to_develop] $ /bin/sh -xe /tmp/jenkins601126452637084207.sh
++ exit 0
+Pushing HEAD to branch develop at repo stock
+ > git --version # timeout=10
+using GIT_SSH to set credentials second key for jenkins user
+ > git push git@github.com:mkolla01/StockCheck.git HEAD:develop
+ERROR: Failed to push branch develop to stock
+hudson.plugins.git.GitException: Command "git push git@github.com:mkolla01/StockCheck.git HEAD:develop" returned status code 1:
+stdout: 
+stderr: To git@github.com:mkolla01/StockCheck.git
+ ! [rejected]        HEAD -> develop (non-fast-forward)
+error: failed to push some refs to 'git@github.com:mkolla01/StockCheck.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. Check out this branch and merge the remote changes
+hint: (e.g. 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:2016)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1735)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$300(CliGitAPIImpl.java:72)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl$8.execute(CliGitAPIImpl.java:2095)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1.call(RemoteGitImpl.java:153)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1.call(RemoteGitImpl.java:146)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:212)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	Suppressed: hudson.remoting.Channel$CallSiteStackTrace: Remote call to jenkins-slave1
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1741)
+		at hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:357)
+		at hudson.remoting.Channel.call(Channel.java:955)
+		at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.execute(RemoteGitImpl.java:146)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler.invoke(RemoteGitImpl.java:132)
+		at com.sun.proxy.$Proxy89.execute(Unknown Source)
+		at hudson.plugins.git.GitPublisher.perform(GitPublisher.java:328)
+		at hudson.tasks.BuildStepMonitor$3.perform(BuildStepMonitor.java:45)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+		at hudson.model.Build$BuildExecution.post2(Build.java:186)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+		at hudson.model.Run.execute(Run.java:1840)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+		at hudson.model.ResourceController.execute(ResourceController.java:97)
+		at hudson.model.Executor.run(Executor.java:429)
+Build step 'Git Publisher' marked build as failure
+Finished: FAILURE

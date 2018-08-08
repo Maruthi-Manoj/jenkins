@@ -1,7 +1,7 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description></description>
+  <description>clones repo from git. create a war file using maven in jenkins slave</description>
   <keepDependencies>false</keepDependencies>
   <properties/>
   <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.1">
@@ -15,7 +15,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>madhu_dev</name>
+        <name>develop</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -33,32 +33,31 @@
   </triggers>
   <concurrentBuild>false</concurrentBuild>
   <builders>
-    <hudson.tasks.Shell>
-      <command>exit 0</command>
-    </hudson.tasks.Shell>
+    <hudson.tasks.Maven>
+      <targets>clean package</targets>
+      <mavenName>maven</mavenName>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+      <injectBuildVariables>false</injectBuildVariables>
+    </hudson.tasks.Maven>
   </builders>
   <publishers>
-    <hudson.plugins.git.GitPublisher plugin="git@3.9.1">
-      <configVersion>2</configVersion>
-      <pushMerge>false</pushMerge>
-      <pushOnlyIfSuccess>true</pushOnlyIfSuccess>
-      <forcePush>true</forcePush>
-      <branchesToPush>
-        <hudson.plugins.git.GitPublisher_-BranchToPush>
-          <targetRepoName>stock</targetRepoName>
-          <branchName>develop</branchName>
-        </hudson.plugins.git.GitPublisher_-BranchToPush>
-      </branchesToPush>
-    </hudson.plugins.git.GitPublisher>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>stockcheck_develop_to_build</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
+    <hudson.plugins.deploy.DeployPublisher plugin="deploy@1.13">
+      <adapters>
+        <hudson.plugins.deploy.tomcat.Tomcat7xAdapter>
+          <credentialsId>tomcat manager</credentialsId>
+          <url>http://35.231.121.251:8080/</url>
+        </hudson.plugins.deploy.tomcat.Tomcat7xAdapter>
+        <hudson.plugins.deploy.tomcat.Tomcat8xAdapter>
+          <credentialsId>tomcat manager</credentialsId>
+          <url>http://35.237.111.221:8080</url>
+        </hudson.plugins.deploy.tomcat.Tomcat8xAdapter>
+      </adapters>
+      <contextPath>StockCheck</contextPath>
+      <war>target/StockCheck.war</war>
+      <onFailure>false</onFailure>
+    </hudson.plugins.deploy.DeployPublisher>
   </publishers>
   <buildWrappers/>
 </project>

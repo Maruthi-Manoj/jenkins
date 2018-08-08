@@ -1,0 +1,23 @@
+Started by user [8mha:////4Efp0/2sqJSHgOp2keW96WryiSDlF4ojeq0gs4pJGmDwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mManoj
+Building remotely on [8mha:////4CfGTJCS+Bn6z+jBdG+ux4JOXLqDIMx5qBhBobH9EMYhAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/azUvOzMvGLd4pzEslRDAHpuIwfNAAAA[0mjenkins-slave1 in workspace /home/jenkins/workspace/StockCheck_userdev_to_develop
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.stock.url git@github.com:mkolla01/StockCheck.git # timeout=10
+Fetching upstream changes from git@github.com:mkolla01/StockCheck.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials second key for jenkins user
+ > git fetch --tags --progress git@github.com:mkolla01/StockCheck.git +refs/heads/*:refs/remotes/stock/*
+ > git rev-parse stock/madhu_dev^{commit} # timeout=10
+Checking out Revision 3f99e33ec6e359672519180d36040b0eeed7e096 (stock/madhu_dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3f99e33ec6e359672519180d36040b0eeed7e096
+Commit message: "Merge pull request #19 from mkolla01/madhu_working"
+ > git rev-list --no-walk 3f99e33ec6e359672519180d36040b0eeed7e096 # timeout=10
+[StockCheck_userdev_to_develop] $ /bin/sh -xe /tmp/jenkins6665373938717108668.sh
++ exit 0
+Pushing HEAD to branch develop at repo stock
+ > git --version # timeout=10
+using GIT_SSH to set credentials second key for jenkins user
+ > git push git@github.com:mkolla01/StockCheck.git HEAD:develop -f
+Triggering a new build of [8mha:////4E67aOpsVqvSCKiTmmx35KsDjOR2r9prZXE7mvy3vfuIAAAArR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzpEgZF/az8JP3ikvzk7OSM1OTs+JTUstSc/IL4kvz4pNLMnBR9AIJhPIPWAAAA[0mstockcheck_develop_to_build
+Finished: SUCCESS
